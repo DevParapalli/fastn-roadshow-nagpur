@@ -28,7 +28,7 @@ align-self: center
 color: $inherited.colors.text
 
 -- ftd.image:
-src: https://avatars.githubusercontent.com/u/30196311?v=4
+src: ./static/pfp.jpg
 width.fixed.px: 128
 height.fixed.px: 128
 border-radius.px: 128
@@ -113,7 +113,6 @@ text-align: justify
 
 [Email](mailto:parapallidev@gmail.com)
 
-
 -- end: ftd.row
 
 -- ftd.text:
@@ -145,5 +144,7 @@ align-self: center
 color: $inherited.colors.text
 padding-top.px: 16
 padding-bottom.px: 10
+
+
 
 -- end: ftd.column

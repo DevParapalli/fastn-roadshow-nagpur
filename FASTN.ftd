@@ -1,6 +1,6 @@
 -- import: fastn
 
--- fastn.package: rs1
+-- fastn.package: fastn-roadshow-nagpur
 
 -- fastn.dependency: fastn-community.github.io/bling
 -- fastn.auto-import: fastn-community.github.io/bling/badge
