@@ -1,0 +1,149 @@
+;; -- import: assets
+
+-- ftd.column: ;; Whole Page column
+padding.px: 100
+padding-top.px: 5
+background.solid: $inherited.colors.background.step-1
+width: fill-container
+height: fill-container
+align-content: top-center
+
+-- ftd.column: ;; Page Flow column
+border-width.px: 4
+border-color: $inherited.colors.border
+border-radius.px: 16
+spacing.fixed.px: 10
+width: fill-container
+
+-- ftd.row: ;; Header Row
+width: fill-container
+spacing: space-between
+border-bottom-width.px: 1
+border-color: $inherited.colors.border
+padding.px: 10
+
+-- ftd.text: DevParapalli
+role: $inherited.types.heading-large
+align-self: center
+color: $inherited.colors.text
+
+-- ftd.image:
+src: https://avatars.githubusercontent.com/u/30196311?v=4
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 128
+border-width.px: 2
+border-color: $inherited.colors.border
+
+-- end: ftd.row
+
+-- ftd.row: ;; Content Row
+spacing: space-between
+
+-- ftd.column: ;; Content Column 1
+padding.px: 10
+max-width.fixed.px: 600
+border-right-width.px: 4
+border-color: $inherited.colors.border
+
+-- ftd.text: 
+color: $inherited.colors.text
+text-align: justify
+
+Hey! I am Devansh, I like working with Web and Systems and love integrating the two. My expertise currently lies in Web Development with React and Svelte. I am experienced in Tailwind and TypeScript as well. I use Python, C/C++ and Rust for Systems Programming.
+I have experience with Selenium and Puppeteer for Web Scraping, and Test Automation. My preferred stack is 
+SvelteKit+Typescript+Tailwind. I am currently tinkering with ESP 32 Platform and ARM Assembly
+
+
+-- end: ftd.column
+
+-- ftd.column: ;; Content Column 2
+padding.px: 10
+
+
+-- ftd.text: Skills 
+color: $inherited.colors.text
+role: $inherited.types.heading-small
+
+-- ftd.text:
+color: $inherited.colors.text
+text-align: justify
+
+- Web Development
+- **fastn**
+- Systems Programming with C, C++, x86 ASM and ARM ASM
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.row: ;; Footer Row
+width: fill-container
+spacing: space-evenly
+border-top-width.px: 1
+border-bottom-width.px: 1
+border-color: $inherited.colors.border
+padding.px: 10
+
+-- ftd.text:
+color: $inherited.colors.text
+text-align: justify
+
+[GitHub](https://github.com/DevParapalli)
+
+
+-- ftd.text:
+color: $inherited.colors.text
+text-align: justify
+
+[LinkedIn](https://www.linkedin.com/in/devparapalli/)
+
+
+-- ftd.text:
+color: $inherited.colors.text
+text-align: justify
+
+[Website - WIP](https://parapalli.dev)
+
+
+-- ftd.text:
+color: $inherited.colors.text
+text-align: justify
+
+[Email](mailto:parapallidev@gmail.com)
+
+
+-- end: ftd.row
+
+-- ftd.text:
+align-self: center
+color: $inherited.colors.text
+text-align: justify
+padding.px: 10
+
+- Government College of Engineering, Nagpur
+    - B.Tech in Computer Science and Engineering 
+    - 2021 - 2025
+
+- G.H. Raisoni Vidyaneketan, Nagpur
+    - XI and XII, Science
+    - 2019 - 2021
+
+- Bharti Krishna Vidya Vihar, Telankhedi, Nagpur
+    - IX to X
+    - 2017 - 2019
+
+- Our Own High School, Al Warqa'a, Dubai
+    - VI to VIII
+    - 2014 - 2017
+
+-- end: ftd.column
+
+-- ftd.text: Made with ❤️ by DevParapalli
+align-self: center
+color: $inherited.colors.text
+padding-top.px: 16
+padding-bottom.px: 10
+
+-- end: ftd.column
